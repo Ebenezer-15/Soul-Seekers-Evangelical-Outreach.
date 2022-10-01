@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;0,700;1,500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Prayer of Salvation */
+.prayer-of-salvation{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.pos-top{
+    background-color: pink;
+    color: #fff;
+    padding: 65px 0 0 13%;
+    height: 230px;
+}
+
+.pos-top>h1{
+    font-size: 65px;
+    line-height: 93px;
+    font-weight: 700;
+}
+
+.pos-body-left>h3{
+    font-size: 34px;
+    line-height: 44px;
+    color: #202020;
+    font-weight: 700;
+}
+
+.pos-body-left>h4{
+    color: #797979;
+    font-size: 18px;
+    line-height: 27px;
+    padding-top: 15px;
+    font-weight: 500;
+}
+.pos-body-left>blockquote{
+    color: #797979;
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 500;
+    font-style: italic;
+    padding-top: 15px;
+}
+
+.pos-body-right>h3{
+    font-size: 22px;
+    line-height: 26px;
+    color: #222222;
+    font-weight: 700;
+}
+
+.pos-body-right>p{
+    font-weight: 500;
+    font-style: italic;
+    font-size: 17px;
+    padding-top: 20px;
+    line-height: 27px;
+}
+
+.pos-body{
+   padding: 7% 13% 1% 13%; 
+}
