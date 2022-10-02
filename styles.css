@@ -64,3 +64,17 @@
 .pos-body{
    padding: 7% 13% 1% 13%; 
 }
+
+/* POS-FORM. */
+
+.pos-form{
+    font-family: 'Open Sans', sans-serif;
+    padding: 65px 0 0 13%;
+
+}
+
+.pos-form-heading{
+    font-size: 34px;
+    line-height: 44px;
+    font-weight: 900;
+}
