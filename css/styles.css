@@ -108,6 +108,10 @@
     font-family: 'Open Sans', sans-serif;
   }
 
+  .body{
+    padding-top: 3%;
+  }
+
   .info{
     padding: 2% 13% 1% 13%; 
   }
