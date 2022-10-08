@@ -5,6 +5,12 @@
     box-sizing: border-box;
 }
 
+/* NAVBAR. */
+.logo {
+    width: 150px;
+    height: 130px;
+}
+
 /* Prayer of Salvation */
 .prayer-of-salvation{
     font-family: 'Open Sans', sans-serif;
@@ -96,3 +102,210 @@
     height: 45px;
     color: #b5b5b5;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+.header_section{
+    background-color: pink;
+}
+
+.custom_nav-container.navbar-expand-lg .navbar-nav {
+    width: 95%;
+    margin-right: auto;
+  }
+  
+  .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  
+  .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item .nav-link {
+    padding: 0px 25px;
+    color: #fefeff;
+    text-align: center;
+  }
+  
+  .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item .nav-link img {
+    width: 22px;
+    margin-right: 15px;
+  }
+  
+  .custom_menu-btn {
+    z-index: 9;
+    position: absolute;
+    right: 0;
+    top: 14px;
+  }
+  
+  .custom_menu-btn button {
+    margin-top: 10px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border-radius: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0 12.5px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  
+  .custom_menu-btn button span {
+    display: block;
+    width: 35px;
+    height: 3.5px;
+    background-color: #ffffff;
+    margin: 3px 0;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    border-radius: 5px;
+  }
+  
+  .custom_menu-btn .s-2 {
+    -webkit-transition: all 0.1s;
+    transition: all 0.1s;
+  }
+  
+  .menu_btn-style {
+    position: fixed;
+    right: 15px;
+    top: 14px;
+  }
+  
+  .menu_btn-style button .s-1 {
+    -webkit-transform: rotate(45deg) translate(7px, 7px);
+            transform: rotate(45deg) translate(7px, 7px);
+  }
+  
+  .menu_btn-style button .s-2 {
+    -webkit-transform: translateX(100px);
+            transform: translateX(100px);
+  }
+  
+  .menu_btn-style button .s-3 {
+    -webkit-transform: rotate(-45deg) translate(6px, -6px);
+            transform: rotate(-45deg) translate(6px, -6px);
+  }
+  .header_section .nav_container {
+    margin: 0 auto;
+  }
+
+
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(360deg, #010202 100%, #000000 79%);
+    opacity: 0.81;
+    overflow-x: hidden;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  
+  .overlay a:hover{
+    color: purple;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    font-size: 60px;
+  }
+  
+  .overlay a {
+    padding: 0px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #f1f1f1;
+    display: block;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    text-transform: uppercase;
+    margin: 5px 0;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .menu_width {
+    width: 100%;
+  }
+  
+  a,
+  a:hover,
+  a:focus {
+    text-decoration: none;
+  }
+  
+  a:hover,
+  a:focus {
+    color: initial;
+  }
+  
+  .btn,
+  .btn:focus {
+    outline: none !important;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  
+  .custom_nav-container .nav_search-btn {
+    background-image: url(../images/search-icon.png);
+    background-size: 18px;
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 35px;
+    padding: 0;
+    border: none;
+    margin: 0 40px 0 15px;
+    background-position: center;
+  }
+  
+  .navbar-brand span {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+  
+  .custom_nav-container {
+    z-index: 99999;
+    padding: 15px 0;
+  }
+  
+  .custom_nav-container .navbar-toggler {
+    outline: none;
+  }
+  
+  .custom_nav-container .navbar-toggler .navbar-toggler-icon {
+    background-size: 55px;
+  }
+  
