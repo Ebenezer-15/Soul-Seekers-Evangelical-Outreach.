@@ -354,3 +354,28 @@
     background-size: 55px;
   }
   
+  /* footer. */
+
+  .footer{
+    /* background-color: pink; */
+  }
+
+  .fa-facebook{
+    border-right: 1px solid #797979;
+    padding: 5px;
+  }
+
+  .fa-instagram{
+    border-right: 1px solid #797979;
+    padding: 5px;
+  }
+  .fa-youtube{
+    border-right: 1px solid #797979;
+    padding: 5px;
+  }
+
+  .icons{
+    border: 1px solid #797979;
+    color: #797979;
+    width: 50px;
+  }
