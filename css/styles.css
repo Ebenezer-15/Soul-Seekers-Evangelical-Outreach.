@@ -357,25 +357,43 @@
   /* footer. */
 
   .footer{
-    /* background-color: pink; */
+    /* background-color: grey; */
+    padding-left: 10px;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+
+  .col-lg-3{
+    border-right: 3px solid #797979;
   }
 
   .fa-facebook{
-    border-right: 1px solid #797979;
+    border: 2px solid #797979;
     padding: 5px;
   }
 
   .fa-instagram{
-    border-right: 1px solid #797979;
+    border: 2px solid #797979;
     padding: 5px;
   }
+
+  .fa-twitter{
+    border: 2px solid #797979;
+    padding: 5px;
+  }
+
   .fa-youtube{
-    border-right: 1px solid #797979;
+    border: 2px solid #797979;
     padding: 5px;
   }
 
   .icons{
-    border: 1px solid #797979;
     color: #797979;
-    width: 50px;
+    /* padding-left: 10px; */
+  }
+
+  .fa-brands{
+    color: #797979;
   }
