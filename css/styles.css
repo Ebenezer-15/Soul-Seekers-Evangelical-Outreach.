@@ -160,7 +160,7 @@
 /* NAV. */
 
 .header_section{
-    background-color: pink;
+    background-color: transparent;
 }
 
 .custom_nav-container.navbar-expand-lg .navbar-nav {
@@ -218,7 +218,7 @@
     display: block;
     width: 35px;
     height: 3.5px;
-    background-color: #ffffff;
+    background-color: #797979;
     margin: 3px 0;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
