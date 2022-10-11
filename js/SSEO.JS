@@ -5,3 +5,13 @@ function openNav() {
       .querySelector(".custom_menu-btn")
       .classList.toggle("menu_btn-style");
   }
+
+  // for footer date
+//  const year = document.getElementById("date");
+//  let dynamicYear = currentDate.getFullYear();
+//  year.innerHTML = dynamicYear;
+ const year = document.getElementById("year");
+
+ let eachYear = currentDate.getFullYear();
+
+ year.innerHTML =  eachYear;

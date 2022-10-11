@@ -357,7 +357,6 @@
   /* footer. */
 
   .footer{
-    /* background-color: grey; */
     padding-left: 10px;
   }
   
@@ -391,9 +390,12 @@
 
   .icons{
     color: #797979;
-    /* padding-left: 10px; */
   }
 
   .fa-brands{
     color: #797979;
+  }
+
+  #year{
+    color: #000000;
   }
