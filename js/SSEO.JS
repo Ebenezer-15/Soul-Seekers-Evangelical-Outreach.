@@ -7,11 +7,7 @@ function openNav() {
   }
 
   // for footer date
-//  const year = document.getElementById("date");
-//  let dynamicYear = currentDate.getFullYear();
-//  year.innerHTML = dynamicYear;
- const year = document.getElementById("year");
 
- let eachYear = currentDate.getFullYear();
-
- year.innerHTML =  eachYear;
+ const d = new Date("July 21, 1983 01:15:00");
+let year = d.getFullYear();
+document.getElementById("date").innerHTML = year;
