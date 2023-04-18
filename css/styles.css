@@ -357,14 +357,50 @@
   /* footer. */
 
   .footer{
-    padding-left: 10px;
+    
   }
-  
+
+  .footer-copyright {
+    display: flex;
+    flex-direction: row; 
+    border-top: 1px solid #1c2236;
+    justify-content: space-between;
+    padding-top: 24px;
+  }
+
+  .copy-text{
+    font-size: 14px;
+    color: #333;
+    line-height: 20px;
+  }
+   
+  .footer-logo-img{
+    width: 170px;
+    height: 110px; 
+  }
+
+  .logo-text h3{
+    font-size: 13px;
+  }
+
+  .logo-text input{
+    border-style: none;
+  }
+
+  .logo-text button{
+    border-style: none;
+    background-color: transparent;
+  }
+
+  .logo-text p{
+    border-bottom: 1px solid #1c2236;
+  }
+
   a{
     text-decoration: none;
   }
 
-  .col-lg-3{
+  /* .col-lg-3{
     border-right: 3px solid #797979;
   }
 
@@ -394,7 +430,7 @@
 
   .fa-brands{
     color: #797979;
-  }
+  } */
 
   #year{
     color: #000000;
