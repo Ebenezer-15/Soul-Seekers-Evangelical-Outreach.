@@ -7,9 +7,13 @@ function openNav() {
   }
 
   // for footer date
- const d = new Date("July 21, 1983 01:15:00");
-let year = d.getFullYear();
-document.getElementById("date").innerHTML = year;
+  const currentDate = new Date();
+
+const year = document.getElementById("year");
+
+ let eachYear = currentDate.getFullYear();
+
+ year.innerHTML =  eachYear;
 
 //for sending email.
 // function sendEmail() {
@@ -64,4 +68,49 @@ form.addEventListener('submit', (e) => {
     .catch((error) => {
       console.error(error);
     });
+});
+
+
+// Example server-side code using Express.js
+const express = require('express');
+const bodyParser = require('body-parser');
+const nodemailer = require('nodemailer');
+
+const app = express();
+app.use(bodyParser.json());
+
+app.post('/send-email', async (req, res) => {
+  const { to, subject, body } = req.body;
+
+  // Create a transporter using nodemailer
+  const transporter = nodemailer.createTransport({
+    service: 'gmail',
+    auth: {
+      user: 'ebenezerosaerhabor@gmail.com', // Replace with your own email address
+      pass: 'OSATEMWENOSE', // Replace with your own email password
+    },
+  });
+
+  // Define the email options
+  const mailOptions = {
+    from: 'ebenezerosaerhabor@gmail.com', // Replace with your own email address
+    to: to,
+    subject: subject,
+    text: body,
+  };
+
+  try {
+    // Send the email using the transporter
+    const info = await transporter.sendMail(mailOptions);
+    console.log('Email sent successfully:', info.response);
+    res.json({ message: 'Email sent successfully' });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ error: 'Failed to send email' });
+  }
+});
+
+// Start the server
+app.listen(3000, () => {
+  console.log('Server is running on http://localhost:3000');
 });
